@@ -1,0 +1,19 @@
+header {
+  background-color: #458bdd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 100px;
+}
+
+.logo img {
+    height: 36px;
+    width: 36px;    
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 9px 30px;
+    font: inherit;
+}
