@@ -1,0 +1,59 @@
+section.aboutUs {
+    padding: 49px 78px;
+    margin-top: 59px;
+    background-color: #458BDD;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+}
+
+.aboutText {
+    max-width: 587px;
+}
+
+.aboutText .heading {
+    padding: 0 32px 0px 32px;
+    color: #ffffff;
+}
+
+.heading h4 {
+    font-size: 20px;
+}
+
+.heading h2 {
+    font-size: 38px;
+}
+
+.para {
+    padding: 38px 0;
+    color: #ffffff;
+}
+
+.para p {
+    font-size: 16px;
+}
+
+.aboutImage img {
+    width: 100%;
+    height: auto;
+}
+
+.enroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    /* padding-top: 34px; */
+}
+
+.step {
+    display: grid;
+    gap: 20px;
+    max-width: 114px;
+    text-align: center;
+    font-size: 24px;
+}

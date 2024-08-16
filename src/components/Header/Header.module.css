@@ -1,19 +1,33 @@
 header {
   background-color: #458bdd;
+}
+
+.header::after {
+  content: url("../../assets/drop-banner.svg");
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  top: 109px;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 19px 100px;
 }
 
-.logo img {
-    height: 36px;
-    width: 36px;    
+.logo {
+  margin: 0;
 }
 
-button {
-    border: none;
-    border-radius: 6px;
-    padding: 9px 30px;
-    font: inherit;
+.logo img {
+  width: 78px;
+  height: auto;
+  margin: 0;
+  user-select: none;
 }
+

@@ -1,0 +1,46 @@
+section.offers {
+    background: linear-gradient(180deg, #FFFFFF 0%, #E5EDCD 100%);
+
+}
+
+.heading {
+    text-align: center;
+    height: 283px;
+    background: url("../../assets/banner.svg") no-repeat center / contain ;
+    padding-top: 115px;
+}
+
+.headingText {
+    max-width: 410px;
+    margin: auto;
+}
+
+.headingText p {
+    font-size: #9C29B2;
+    color: #9C29B2;
+}
+
+.headingText h2 {
+    font-size: 36px;
+    color: #2E0336;
+}
+
+.offersGroup {
+    display: flex;
+
+}
+
+.offerCard {
+    max-width: 530px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.cardImage img {
+    width: 100%;
+    height: auto;
+}

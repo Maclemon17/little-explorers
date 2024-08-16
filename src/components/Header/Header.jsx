@@ -4,12 +4,14 @@ import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <header cladd>
-      <div className={styles.logo}>
-        <img src={logo} alt="Little Explorer Logo" />
-      </div>
+    <header className={styles.header}>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>
+          <img src={logo} alt="Little Explorer Logo" />
+        </div>
 
-      <button className={styles.offerBtn}>Our Offers</button>
+        <button className="offerBtn">Our Offers</button>
+      </nav>
     </header>
   )
 }

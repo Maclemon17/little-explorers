@@ -1,0 +1,37 @@
+.card {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #e9eff5;
+  padding: 20px;
+  background-color: #e9eff5;
+  text-align: center;
+}
+
+.cardHeader {
+  display: grid;
+  place-items: center;
+  gap: 12px;
+}
+
+.cardHeader img {
+  max-width: 74px;
+  height: auto;
+  object-fit: contain;
+}
+
+.cardTitle {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  color: #3972ff;
+}
+
+.cardBody {
+  padding-top: 12px;
+}
+
+.cardBody p {
+  font-size: 16px;
+  color: #3972ff;
+}

@@ -1,8 +1,57 @@
 section.hero {
-    display: flex;
-    align-items: center;
-    gap: 47px;
-    /* padding-top: 120px; */
-    background-color: #EBF2D9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebf2d9;
+  padding: 15px 78px;
+  height: 95dvh;
 }
 
+/* .hero::after {
+  content: url("../../assets/bottom-banner.svg");
+  position: absolute;
+  display: block;
+  width: 100vw;
+  bottom: 0;
+} */
+
+.heroText {
+  max-width: 550px;
+  /* position: relative; */
+}
+
+.heroText::before {
+  content: url("../../assets/teddy.svg");
+  position: absolute;
+  top: 247px ;
+  left: 70px;
+}
+
+.heroText h1 {
+  font-size: 54px;
+  color: #3972ff;
+  text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+}
+
+.heroText .welcome {
+  font-size: 17px;
+  color: #550964;
+  padding-top: 5px;
+  padding-bottom: 13px;
+}
+
+.heroText .address {
+  font-family: "Righteous", sans-serif;
+  font-size: 14px;
+  color: #458bdd;
+  padding-bottom: 28px;
+}
+
+.heroImage {
+  max-width: 650px;
+}
+
+.heroImage img {
+  width: 100%;
+  height: auto;
+}

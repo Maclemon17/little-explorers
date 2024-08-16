@@ -40,8 +40,10 @@ const Offers = () => {
     return (
         <section className={styles.offers}>
             <div className={styles.heading}>
-                <p>Educational Plan</p>
-                <h2>Learn More About Our Offers</h2>
+                <div className={styles.headingText}>
+                    <p>Educational Plan</p>
+                    <h2>Learn More About Our Offers</h2>
+                </div>
             </div>
             <div className={styles.offersGroup}>
                 <div className={styles.offerCard}>
