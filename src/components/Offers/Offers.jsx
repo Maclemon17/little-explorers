@@ -4,7 +4,7 @@ import activity from '../../assets/activity.png';
 import snack from '../../assets/snack.png';
 import regulation from '../../assets/regulation.png';
 import tution from '../../assets/tution.png';
-import arrowRight from '../../assets/arrow-right.svg';
+import OfferCard from '../Hero/Card/OfferCard';
 
 const Offers = () => {
 
@@ -13,25 +13,25 @@ const Offers = () => {
             "title": "Activity Timetable",
             "text": "Flexible, engaging schedule tailored to children’s developmental needs.",
             "link": "View Timetable",
-            "image": { activity },
+            "image": activity,
         },
         {
             "title": "Snack & Meals",
             "text": "Nutritious, delicious meals fostering healthy eating habits.",
             "link": "View Menu",
-            "image": { snack },
+            "image": snack,
         },
         {
             "title": "Our Regulations",
             "text": "Safe, secure, and structured environment promoting children's well-being.",
             "link": "View Regulations",
-            "image": { regulation },
+            "image": regulation,
         },
         {
             "title": "Tuition",
             "text": "Affordable, transparent pricing with flexible payment options available.",
             "link": "View Tuition",
-            "image": { tution },
+            "image": tution,
         },
     ]
 
@@ -46,50 +46,11 @@ const Offers = () => {
                 </div>
             </div>
             <div className={styles.offersGroup}>
-                <div className={styles.offerCard}>
-                    <div className={styles.cardImage}>
-                        <img src={activity} alt="" />
-                    </div>
-                    <div className={styles.cardText}>
-                        <h4>Activity Timetable</h4>
-                        <p>Flexible, engaging schedule tailored to children’s developmental needs.</p>
-
-                        <a href="#">View Timetable <span><img src={arrowRight} alt="arrow" /></span></a>
-                    </div>
-                </div>
-                <div className={styles.offerCard}>
-                    <div className={styles.cardImage}>
-                        <img src={activity} alt="" />
-                    </div>
-                    <div className={styles.cardText}>
-                        <h4>Activity Timetable</h4>
-                        <p>Flexible, engaging schedule tailored to children’s developmental needs.</p>
-
-                        <a href="#">View Timetable <span><img src={arrowRight} alt="arrow" /></span></a>
-                    </div>
-                </div>
-                <div className={styles.offerCard}>
-                    <div className={styles.cardImage}>
-                        <img src={activity} alt="" />
-                    </div>
-                    <div className={styles.cardText}>
-                        <h4>Activity Timetable</h4>
-                        <p>Flexible, engaging schedule tailored to children’s developmental needs.</p>
-
-                        <a href="#">View Timetable <span><img src={arrowRight} alt="arrow" /></span></a>
-                    </div>
-                </div>
-                <div className={styles.offerCard}>
-                    <div className={styles.cardImage}>
-                        <img src={activity} alt="" />
-                    </div>
-                    <div className={styles.cardText}>
-                        <h4>Activity Timetable</h4>
-                        <p>Flexible, engaging schedule tailored to children’s developmental needs.</p>
-
-                        <a href="#">View Timetable <span><img src={arrowRight} alt="arrow" /></span></a>
-                    </div>
-                </div>
+                {
+                    cardData.map((data, id) => (
+                        <OfferCard key={id} data={data} />
+                    ))
+                }
             </div>
         </section>
     )

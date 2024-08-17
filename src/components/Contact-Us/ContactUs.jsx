@@ -8,26 +8,26 @@ import call from '../../assets/call.png';
 const ContactUs = () => {
   return (
     <section className={styles.contactUs}>
-        <div>
+        <div className={styles.heading}>
             <p>No 2, KG 327. Behind MTN Center. Nyarutarama, Kigali, Rwanda</p>
             <h2>Needs Help? Let’s Get in Touch</h2>
         </div>
         <div className={styles.socials}>
             <div className={styles.social}>
-                <img src={whatsapp} alt="" />
-                <span>Chat Us On WhatsApp</span>
+                <img src={whatsapp} alt="whatsapp" />
+                <p>Chat Us On WhatsApp</p>
             </div>
             <div className={styles.social}>
-                <img src={messenger} alt="" />
-                <span>Chat Us On Messenger</span>
+                <img src={messenger} alt="messenger" />
+                <p>Chat Us On Messenger</p>
             </div>
             <div className={styles.social}>
-                <img src={email} alt="" />
-                <span>Send An Email</span>
+                <img src={email} alt="email" />
+                <p>Send An Email</p>
             </div>
             <div className={styles.social}>
-                <img src={call} alt="" />
-                <span>Call In</span>
+                <img src={call} alt="call" />
+                <p>Call In</p>
             </div>
         </div>
     </section>

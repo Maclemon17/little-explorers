@@ -1,0 +1,55 @@
+.offerCard {
+    --text-colour: #710a85;
+  max-width: 530px;
+  height: auto;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #ffffff;
+  padding: 40px 28px;
+}
+
+.offerCard:hover {
+  --text-color: #e4b303;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.cardImage img {
+  width: 100%;
+  max-width: 225px;
+  height: auto;
+}
+
+.cardText {
+  --text-colour: #710a85;
+  max-width: 246px;
+}
+
+.cardText h4 {
+  font-size: 20px;
+  color: var(--text-colour);
+}
+
+.cardText p {
+  font-size: 14px;
+  padding: 20px 0 27px;
+}
+
+.link {
+  display: flex;
+  text-align: center;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.link a {
+  text-decoration: underline;
+  color: var(--text-colour);
+}
+
+.link img {
+  fill: var(--text-colour);
+}
