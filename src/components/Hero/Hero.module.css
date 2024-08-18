@@ -7,14 +7,6 @@ section.hero {
   height: 95dvh;
 }
 
-/* .hero::after {
-  content: url("../../assets/bottom-banner.svg");
-  position: absolute;
-  display: block;
-  width: 100vw;
-  bottom: 0;
-} */
-
 .heroText {
   max-width: 550px;
   /* position: relative; */

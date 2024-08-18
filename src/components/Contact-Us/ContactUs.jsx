@@ -8,6 +8,8 @@ import call from '../../assets/call.png';
 const ContactUs = () => {
   return (
     <section className={styles.contactUs}>
+        <div className={`${styles.curvedOverlay} ${styles.top}`}></div>
+
         <div className={styles.heading}>
             <p>No 2, KG 327. Behind MTN Center. Nyarutarama, Kigali, Rwanda</p>
             <h2>Needs Help? Let’s Get in Touch</h2>
@@ -30,6 +32,8 @@ const ContactUs = () => {
                 <p>Call In</p>
             </div>
         </div>
+
+        <div className={`${styles.curvedOverlay} ${styles.bottom}`}></div>
     </section>
   )
 }

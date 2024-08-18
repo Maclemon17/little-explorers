@@ -1,8 +1,11 @@
 section.qualities {
   background-color: #ffffff;
   margin-top: 73px;
-  /* margin-bottom: 59px; */
-  padding: 0 78px;
+  position: relative;
+}
+
+.contentBox {
+  padding: 0px 78px 60px;
 }
 
 .heading {
@@ -22,4 +25,3 @@ section.qualities {
   justify-content: space-around;
   gap: 25px;
 }
-

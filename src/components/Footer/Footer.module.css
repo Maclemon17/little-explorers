@@ -1,0 +1,92 @@
+footer {
+  padding: 46px 52px;
+  background-color: #171717;
+  color: #ffffff;
+}
+
+.footerLogo img {
+  width: auto;
+  height: auto;
+}
+
+.footerContent {
+  padding: 23px 0 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerText {
+  max-width: 448px;
+}
+
+.footerText h3 {
+  font-size: 22px;
+}
+
+.footerText p {
+  font-size: 16px;
+  color: #737373;
+  padding: 12px 0 30px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialIcons img {
+  cursor: pointer;
+  border-radius: 100vw;
+  padding: 7px;
+  background-color: #2c2c2c;
+  transition: 0.5s ease-in-out all;
+}
+
+.socialIcons img:hover {
+  background-color: #737373;
+}
+
+/* .footerLinks {
+    flex: 1;
+} */
+
+.footerLinks h3 {
+  padding-bottom: 14px;
+  font-size: 22px;
+}
+
+.links {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+  color: #737373;
+}
+
+.links a {
+  color: #737373;
+  font-size: 16px;
+  transition: 0.3s ease-in-out all;
+}
+
+.links a:hover {
+  color: #ffffff;
+  padding-left: 2px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 16px;
+  color: #737373;
+}
+
+.copy::before {
+  content: "";
+  display: block;
+  margin: 12px auto;
+  width: 98%;
+  border: 1px solid #2c2c2c;
+}

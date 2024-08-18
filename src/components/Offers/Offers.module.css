@@ -1,7 +1,6 @@
 section.offers {
   background: linear-gradient(180deg, #ffffff 0%, #e5edcd 100%);
-  /* padding-top: 115px; */
-  margin-top: 24px;
+  padding-top: 115px;
 }
 
 .heading {

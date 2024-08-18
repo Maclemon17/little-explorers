@@ -1,16 +1,21 @@
 header {
   background-color: #458bdd;
+  position: relative;
 }
 
 .header::after {
-  content: url("../../assets/drop-banner.svg");
+  /* content: url("../../assets/drop-banner.svg"); */
+  content: "";
   display: block;
   position: absolute;
-  width: 100vw;
-  height: auto;
+  width: 100dvw;
+  height: 148px;
   max-width: 100%;
-  object-fit: cover;
-  top: 109px;
+  top: 100px;
+  background-image: url("../../assets/drop-banner.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .navbar {

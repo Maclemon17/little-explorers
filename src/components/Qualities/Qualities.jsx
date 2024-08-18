@@ -33,16 +33,18 @@ const Qualities = () => {
 
     return (
         <section className={styles.qualities}>
-            <div className={styles.heading}>
-                <h2>Providing Good Qualities For Your Loving Kids</h2>
-            </div>
+            <div className={styles.contentBox}>
+                <div className={styles.heading}>
+                    <h2>Providing Good Qualities For Your Loving Kids</h2>
+                </div>
 
-            <div className={styles.cardGroup}>
-                {
-                    qualitiesCard.map((cardData, id) => (
-                        <Card key={id} data={cardData} />
-                    ))
-                }
+                <div className={styles.cardGroup}>
+                    {
+                        qualitiesCard.map((cardData, id) => (
+                            <Card key={id} data={cardData} />
+                        ))
+                    }
+                </div>
             </div>
         </section>
     )
