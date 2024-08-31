@@ -53,3 +53,9 @@
 .link img {
   fill: var(--text-colour);
 }
+
+@media screen and (max-width: 480px) {
+  .offerCard {
+    flex-direction: column;
+  }
+}

@@ -22,7 +22,7 @@ section.contactUs {
 .bottom {
   border-bottom-left-radius: 100% 50px;
   border-bottom-right-radius: 100% 50px;
-  bottom: -30px;
+  bottom: -29px;
 }
 
 .heading {
@@ -51,6 +51,7 @@ section.contactUs {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  width: auto;
   gap: 31px;
 }
 
@@ -61,4 +62,47 @@ section.contactUs {
 
 .social p {
   font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .socials {
+    padding: 60px 15px 0px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    gap: 20px;
+  }
+
+  .social p {
+    font-size: 12px ;
+  }
+
+  .social img {
+    width: 50px;
+  }
+
+  .heading h2 {
+    font-size: 32px;
+  }
+
+  .heading p {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  section.contactUs {
+    padding: 45px 0;
+  }
+  .social {
+    flex: 2;
+    text-align: center;
+  }
+  .social img {
+    width: 32px;
+  }
 }

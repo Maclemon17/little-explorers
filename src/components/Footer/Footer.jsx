@@ -8,7 +8,7 @@ import linkedin from '../../assets/linkedin.svg';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div className={styles.footerLogo}>
                 <img src={logo} alt="logo" />
             </div>
@@ -16,21 +16,6 @@ const Footer = () => {
                 <div className={styles.footerText}>
                     <h3>Little Explorers</h3>
                     <p>Welcome to Little Explorers! 🌟 Safe, secure, nurturing environment for growth. Experienced staff, early learning, flexible hours, cozy naps, fun play, nutritious meals. Enroll now!</p>
-
-                    <div className={styles.socialIcons}>
-                        <div>
-                            <img src={twitter} alt="twitter" />
-                        </div>
-                        <div>
-                            <img src={facebook} alt="facebook" />
-                        </div>
-                        <div>
-                            <img src={instagram} alt="instagram" />
-                        </div>
-                        <div>
-                            <img src={linkedin} alt="linkedin" />
-                        </div>
-                    </div>
                 </div>
 
                 <div className={styles.footerLinks}>
@@ -42,8 +27,22 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className={styles.socialIcons}>
+                <div>
+                    <img src={twitter} alt="twitter" />
+                </div>
+                <div>
+                    <img src={facebook} alt="facebook" />
+                </div>
+                <div>
+                    <img src={instagram} alt="instagram" />
+                </div>
+                <div>
+                    <img src={linkedin} alt="linkedin" />
+                </div>
+            </div>
 
-        
+
             <p className={styles.copy}>
                 @copyright 2024 all right reserved by titan construction
             </p>

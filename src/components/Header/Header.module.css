@@ -36,3 +36,38 @@ header {
   user-select: none;
 }
 
+/* Laptops */
+@media (max-width: 1024px) {
+  .header::after {
+    top: 85px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 19px 50px;
+    background-color: red;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+    background-color: green;
+  }
+
+  .logo img {
+    width: 64px;
+  }
+
+  /* .header::after {
+
+  } */
+
+  .navbar button {
+    padding: 9px 20px !important;
+    font-size: unset !important;
+  }
+}
