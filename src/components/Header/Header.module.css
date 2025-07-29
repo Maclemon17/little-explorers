@@ -1,6 +1,9 @@
 header {
   background-color: #458bdd;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
 
 .header::after {
@@ -34,6 +37,7 @@ header {
   height: auto;
   margin: 0;
   user-select: none;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 1235px) {

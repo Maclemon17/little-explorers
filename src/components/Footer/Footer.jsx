@@ -44,7 +44,8 @@ const Footer = () => {
 
 
             <p className={styles.copy}>
-                @copyright 2024 all right reserved by titan construction
+                &copy; {new Date().getFullYear()} Little Explorers. All rights reserved.
+                {/* @copyright 2024 all right reserved by titan construction */}
             </p>
         </footer>
     )
