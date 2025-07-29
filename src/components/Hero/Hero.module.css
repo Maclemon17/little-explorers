@@ -50,12 +50,21 @@ section.hero {
 
 
 /* Laptops */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  section.hero {
+    padding: 15px 2rem;
+    font-size: 70%;
+  }
+
   .heroText {
     /* width: 90%; */
     /* font-size: 10%; */
     position: relative;
   }
+
+  /* .heroText h1 {
+    font-size: 80%;
+  } */
 
   .heroText::before {
     /* height: 24px; */
@@ -71,4 +80,20 @@ section.hero {
    font-size: 15px;
   }
 
+}
+
+@media screen and (max-width: 850px) {
+  section.hero {
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  
 }

@@ -2,10 +2,10 @@ section.aboutUs {
   margin-top: 59px;
   background-color: #458bdd;
   position: relative;
-
 }
 
-section.aboutUs::before, section.aboutUs::after {
+section.aboutUs::before,
+section.aboutUs::after {
   content: "";
   display: block;
   position: absolute;
@@ -20,11 +20,11 @@ section.aboutUs::before, section.aboutUs::after {
 }
 
 .aboutUs::before {
-    top: -100px;
+  top: -100px;
 }
 
 .aboutUs::after {
-    bottom: -100px;
+  bottom: -100px;
 }
 
 .contentBox {
@@ -36,7 +36,7 @@ section.aboutUs::before, section.aboutUs::after {
 }
 
 .aboutText {
-  max-width: 587px;
+  max-width: 570px;
 }
 
 .aboutText .heading {
@@ -80,4 +80,49 @@ section.aboutUs::before, section.aboutUs::after {
   max-width: 114px;
   text-align: center;
   font-size: 24px;
+}
+
+@media screen and (max-width: 1140px) {
+  .contentBox {
+    padding: 79px 2rem;
+    gap: 1rem;
+  }
+
+  .aboutText {
+    flex-basis: 120%;
+  }
+}
+
+@media  screen and (max-width: 800px) {
+  .contentBox {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .aboutText, .aboutImage {
+    flex-basis: 100%;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .enroll {
+    position: static;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading h2 {
+    font-size: 25px; 
+  }
+
+  .para p {
+    font-size: 14px;
+  }
+
+  .step {
+    font-size: 20px;
+  }
 }

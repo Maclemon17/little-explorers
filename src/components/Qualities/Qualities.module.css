@@ -22,6 +22,30 @@ section.qualities {
 .cardGroup {
   padding-top: 78px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 25px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading h2 {
+    font-size: 32px;
+  }
+}
+
+/* For tablets */
+@media screen and (max-width: 800px) {
+  .heading h2 {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .contentBox {
+    padding: 0px 0px 60px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
 }

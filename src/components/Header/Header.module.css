@@ -36,6 +36,12 @@ header {
   user-select: none;
 }
 
+@media screen and (max-width: 1235px) {
+  .header::after {
+    top: 85px;
+  }
+}
+
 /* Laptops */
 @media (max-width: 1024px) {
   .header::after {
@@ -45,9 +51,13 @@ header {
 
 /* Tablets */
 @media (max-width: 768px) {
+  .header::after {
+    top: 100px;
+    background-size: cover;
+  }
+
   .navbar {
     padding: 19px 50px;
-    background-color: red;
   }
 }
 
@@ -55,16 +65,15 @@ header {
 @media (max-width: 480px) {
   .navbar {
     padding: 10px 15px;
-    background-color: green;
   }
 
   .logo img {
     width: 64px;
   }
 
-  /* .header::after {
-
-  } */
+  .header::after {
+    content: none;
+  }
 
   .navbar button {
     padding: 9px 20px !important;
